@@ -1,0 +1,25 @@
+<%include partials/header %>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="/myStyleSheet.css">
+	<!--navigation bar-->
+	</head>
+	<% include partials/navbar %>
+	
+	<div id = "container">
+		<h1 id = "head">My to-Do List</h1>
+		<input id = "write" type="text" name="" placeholder="Add New Todo">
+		<ul id = "todos">
+			<li> <span class = 'trash'> <i class='fas fa-trash-alt'></i></span> hello</li>
+		</ul>
+	</div>
+	<div id = "container">
+		<h1 id = "deletedheader">Completed To-Dos</h1>
+		
+		<ul id = "deleted">
+		</ul>
+	</div>
+	
+<script type="text/javascript" src="/toDo.js"></script>
+
+<%include partials/footer %>
