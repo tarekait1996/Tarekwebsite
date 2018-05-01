@@ -1,6 +1,7 @@
 body {
 	padding-top : 70px ;
 	background-image: url("/images/image2.jpg");
+	height: 100%; 
 	background-size: cover;
 	background-repeat: no-repeat;
     background-attachment: fixed;
