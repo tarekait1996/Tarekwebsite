@@ -6,6 +6,7 @@ body {
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    
 			
 }
 .carousel-item {
@@ -35,7 +36,7 @@ html {
 	height : 100%;
 }
 hr {
-	width : 400px;
+	width : 50%;
 	border-top : 1px solid #f8f8f8;
 	border-bottom : 1px solid rgba(0,0,0,.2);
 }
