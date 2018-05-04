@@ -43,3 +43,6 @@ hr {
 .special {
     font-family: 'Italianno';font-size: 22px;
 }
+#resume : hover {
+	color : black;
+}
