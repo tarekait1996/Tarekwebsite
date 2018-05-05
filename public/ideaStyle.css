@@ -1,6 +1,6 @@
 body {
 	padding-top : 70px ;
-	background-image: url("/images/image2.jpg");
+	background-image: url("/images/bg.jpg");
 	height: 100%; 
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -45,4 +45,12 @@ hr {
 }
 #resume : hover {
 	color : black;
+}
+#banner{
+	background-image : url("/images/header1.jpg");
+}
+#headprojects{
+    color : white;
+    text-align: center;
+    font-variant: uppercase;
 }
