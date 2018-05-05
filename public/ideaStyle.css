@@ -49,6 +49,13 @@ hr {
 #banner{
 	background-image : url("/images/header1.jpg");
 }
+#bannerTwo{
+	background-image : url("/images/banner.jpg");
+	background-origin: center;
+	margin-bottom: 50px;
+	background-position: center;
+	background-size:100% auto;
+}
 #headprojects{
     color : white;
     text-align: center;
