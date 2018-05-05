@@ -17,37 +17,10 @@ body {
 .attention{
     font-size: 30px;
 }
-		/* Flaired edges */
 
-	hr.style-three {
-	height: 30px;
-	border-style: solid;
-	border-color: black;
-	border-width: 1px 0 0 0;
-	border-radius: 20px;
-display: inline-block;
-}
-	hr.style-three:before {
-	display:block;
-	content: "";
-	height: 30px;
-	margin-top: -31px;
-	border-style: solid;
-	border-color: black;
-	border-width: 0 0 1px 0;
-		border-radius: 20px;
-
-}
 .summary {
   font-family: 'Metal';font-size: 20px;
 }
 .special {
     font-family: 'Italianno';font-size: 22px;
 }
-.containerdivNewLine { 
-	clear: both;
-	float: left; 
-	display: block; 
-	position: relative;
-	padding-bottom: 30px;
-	} 
