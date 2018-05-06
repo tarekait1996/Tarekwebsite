@@ -61,3 +61,10 @@ hr {
     text-align: center;
     font-variant: uppercase;
 }
+#portfolio img:hover {
+    position:relative;
+    height:auto;
+    display:block;
+    z-index:999;
+    transform: scale(1.5);
+}

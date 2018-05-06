@@ -28,6 +28,12 @@ app.get('/about',function(req,res){
   //res.sendfile(path.resolve(__dirname, 'public/RGBGame.html'));
   
 });
+app.get('/portfolio',function(req,res){
+  res.render("photos");
+  
+  //res.sendfile(path.resolve(__dirname, 'public/RGBGame.html'));
+  
+});
 
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("server ready!");
