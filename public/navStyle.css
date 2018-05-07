@@ -1,16 +1,1 @@
-.nav-link.active {
-    color: rgba(0, 0, 0, 0.9);
-     text-shadow: 0.3px 0.3px;
-     
-}
-  .dropdown-item{
-            color: rgba(0,0,0,.5);
-            background: transparent;
-            
-  }
-  .dropdown-item.active, .dropdown-item:active{
-            color: rgba(0,0,0,.9);
-            text-shadow: 0.3px 0.3px;
-            background: transparent;
-            
-  }
+.nav-link.active{color: rgba(0, 0, 0, 0.9); text-shadow: 0.3px 0.3px;}.dropdown-item{color: rgba(0,0,0,.5); background: transparent;}.dropdown-item.active, .dropdown-item:active{color: rgba(0,0,0,.9); text-shadow: 0.3px 0.3px; background: transparent;}
