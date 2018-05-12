@@ -3,12 +3,19 @@
 	</head>
 		<% include partials/navbar %>
 		
-		<div class ="container">
+		<div class ="container" style = "margin-top:50px;">
 		<div class="jumbotron">
 			
 		<div class = " row">
 			<div class = "col-md-12 col-sm-12 col-lg-6" style = "text-align : center;">
-				<img style = "margin:0 auto;" id = "profile" class="img-thumbnail" alt = "profile picture" src = "/images/profile1.jpg">
+				<div class="thumbnail">
+					<a href="/resume.pdf">
+				        <img style = "margin : 0 auto; border: 10px;" id = "profile"  alt = "profile picture" src = "/images/profile1.jpg">
+				        <div class="caption">
+							<!--FOR LATER USE-->
+				        </div>
+				      </a>
+                </div>
 			</div>
 			<div class = "aboutMe col col-md-12 col-sm-12 col-lg-6">
 				<p >
@@ -19,16 +26,18 @@
 				</p>
 				<p class = "summary">
 					<% include partials/summary.txt %>
+					   
+					<br/>
+					<span style ="text-align:center;">
+					<i class="fab fa-java"></i>
+					<i class="fab fa-js-square"></i>
+					<i class="fab fa-html5"></i>
+					<i class="fab fa-css3-alt"></i>
+					<i class="fab fa-php"></i>
+					<i class="fab fa-node-js"></i>
+					</span>
+					<p><a href="/" class="btn btn-default" style = "color:black;" role="button"><i class="fas fa-arrow-left"></i> Go Back Home </a></p>
 				</p>
-				<span style ="text-align:center;">
-				<i class="fab fa-java"></i>
-				<i class="fab fa-js-square"></i>
-				<i class="fab fa-html5"></i>
-				<i class="fab fa-css3-alt"></i>
-				<i class="fab fa-php"></i>
-				<i class="fab fa-node-js"></i>
-
-				</span>
 			</div>
 		</div>
 		</div>
