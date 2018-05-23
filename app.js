@@ -11,6 +11,11 @@ app.get('/',function(req,res){
    res.render("idea");
   //__dirname : It will resolve to your project folder.
 });
+app.get('/game',function(req,res){
+  //res.sendfile(path.resolve(__dirname, 'public/idea.html'));
+    res.render("game");
+  //__dirname : It will resolve to your project folder.
+});
 app.get('/to-do-list',function(req,res){
    res.render("toDo");
   //res.sendfile(path.resolve(__dirname, 'public/toDo.html'));

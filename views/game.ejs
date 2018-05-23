@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Snake</title>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style> 
+    *{
+      padding:30; margin:0;
+    }
+    canvas {
+      background : #EEE;
+      display: block;
+      margin: 0 auto;
+      
+    }
+    body {
+      background-image:url("/images/gameBackground.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+    }
+    </style>
+  </head>
+  <body>
+    <canvas id= "myCanvas" width = "480" height="320"></canvas>
+    <div align = center>
+      <br/>
+      <button id = "play" type="button" class="btn">Play!</button>
+      <br/>
+      <p style = "color:white">Better Design Comming Soon</p>
+    </div>
+    <script>
+    $('#play').click(function(){
+    $.getScript('/game.js');});
+    </script>
+    
+     
+    
+  </body>
+</html>
