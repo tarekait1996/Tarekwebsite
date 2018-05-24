@@ -6,7 +6,7 @@ var y = canvas.height-30;
 //velocities
 var dx = 2;
 var dy= -2;
-      //ball radius
+//ball radius
 var ballRadius = 10;
 //PADDLE TO HIT THE BALL
 var paddleHeight = 10;

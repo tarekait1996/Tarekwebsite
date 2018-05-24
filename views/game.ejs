@@ -1,22 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Snake</title>
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<%include partials/header %>
     <style> 
     *{
       padding:30; margin:0;
     }
     canvas {
-      background : #EEE;
+      background-image:url("/images/dxjs.jpg");
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: center;
       display: block;
       margin: 0 auto;
+      border : 5px solid blue;
+      
       
     }
     body {
@@ -25,20 +20,38 @@
       background-size: cover;
       background-attachment: fixed;
       background-position: center;
+      
     }
+    #waste {
+      height: 70px;
+    }
+    .jumbotron {
+      width:720px;
+    }
+  
     </style>
-  </head>
-  <body>
-    <canvas id= "myCanvas" width = "480" height="320"></canvas>
-    <div align = center>
-      <br/>
-      <button id = "play" type="button" class="btn">Play!</button>
-      <br/>
-      <p style = "color:white">Better Design Comming Soon</p>
+    
+    <%include partials/navbar %>
+    <div id ="waste"> </div>
+    
+    <div class="container" align= center >
+    <div class = "jumbotron" >
+      <canvas id= "myCanvas" width = "480" height="520">
+      </canvas>
+      <div id = "h" align = center>
+        <br/>
+        <button id = "play" type="button" class="btn">Play!</button>
+        <br/>
+        <p style = "color:white">Better Design Comming Soon</p>
+      </div>
+    </div>
     </div>
     <script>
     $('#play').click(function(){
-    $.getScript('/game.js');});
+      $('#default').hide();
+      $.getScript('/game.js');
+      
+    });
     </script>
     
      
