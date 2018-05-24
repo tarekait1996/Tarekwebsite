@@ -48,7 +48,8 @@
     </div>
     <script>
     $('#play').click(function(){
-      $('#default').hide();
+      $("canvas").css("background-color", "#EEE");
+      $("canvas").css('background-image', 'none');
       $.getScript('/game.js');
       
     });
