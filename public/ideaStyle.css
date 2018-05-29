@@ -5,3 +5,11 @@ body{padding-top : 70px ;background-image: url("/images/bg.jpg");height: 100%; b
    filter: invert(1);
    
 }
+
+.carousel-item{
+    width:100%;
+    height: auto;
+}
+.carousel-item img{
+    
+}
